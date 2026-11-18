@@ -1,0 +1,481 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Campus Connect | Student Hub</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+
+        <div class="logo">
+            CAMPUS<span>CONNECT.</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#community">Community</a></li>
+        </ul>
+
+        <a href="#join" class="nav-button">Join Us</a>
+
+    </nav>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="welcome">WELCOME TO CAMPUS CONNECT</p>
+
+            <h1>
+                YOUR CAMPUS.
+                <span>YOUR COMMUNITY.</span>
+                YOUR FUTURE.
+            </h1>
+
+            <p>
+                Everything you need as a student, all in one place.
+                Discover events, access study materials and connect
+                with other students.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#events" class="primary-btn">
+                    Explore Campus
+                </a>
+
+                <a href="#resources" class="outline-btn">
+                    Find Resources
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1523240795612-9a054b0db644"
+                alt="University students"
+            >
+
+        </div>
+
+    </section>
+
+
+    <!-- QUICK INFORMATION -->
+    <section class="stats-section">
+
+        <div class="stat-card">
+            <h2>120+</h2>
+            <p>Study Resources</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>35+</h2>
+            <p>Campus Events</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>15+</h2>
+            <p>Student Communities</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>24/7</h2>
+            <p>Learning Access</p>
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT CAMPUS CONNECT -->
+    <section class="about-section">
+
+        <div class="about-text">
+
+            <p class="section-label">ABOUT OUR PLATFORM</p>
+
+            <h2>Making Student Life Easier.</h2>
+
+            <p>
+                Campus Connect is a student-focused platform created
+                to make academic and social life easier.
+            </p>
+
+            <p>
+                Students can find useful learning materials,
+                discover upcoming events, receive announcements
+                and connect with other students.
+            </p>
+
+            <a href="#join" class="primary-btn">
+                Discover More
+            </a>
+
+        </div>
+
+        <div class="about-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1523580494863-6f3031224c94"
+                alt="Students in a university"
+            >
+
+        </div>
+
+    </section>
+
+
+    <!-- EVENTS SECTION -->
+    <section class="events-section" id="events">
+
+        <div class="section-heading">
+
+            <div>
+                <p class="section-label">WHAT'S HAPPENING?</p>
+                <h2>Upcoming Events</h2>
+            </div>
+
+            <p>Discover activities happening around campus.</p>
+
+        </div>
+
+
+        <div class="event-container">
+
+            <div class="event-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1540575467063-178a50c2df87"
+                    alt="Technology conference"
+                >
+
+                <div class="event-content">
+
+                    <p class="event-date">15 NOVEMBER 2026</p>
+
+                    <h3>Technology Conference</h3>
+
+                    <p>
+                        Join other students to explore technology,
+                        innovation and the future of digital skills.
+                    </p>
+
+                    <button class="register-btn"
+                        data-event="Technology Conference">
+                        Register Now
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="event-card">
+
+                <img
+                    src="../campus.jpeg"
+                    alt="Student sports"
+                >
+
+                <div class="event-content">
+
+                    <p class="event-date">20 NOVEMBER 2026</p>
+
+                    <h3>Campus Sports Day</h3>
+
+                    <p>
+                        Experience an exciting day of sports,
+                        teamwork and student competitions.
+                    </p>
+
+                    <button class="register-btn"
+                        data-event="Campus Sports Day">
+                        Register Now
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="event-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1511632765486-a01980e01a18"
+                    alt="Student community gathering"
+                >
+
+                <div class="event-content">
+
+                    <p class="event-date">25 NOVEMBER 2026</p>
+
+                    <h3>Student Social Night</h3>
+
+                    <p>
+                        Meet new people, make friends and
+                        enjoy an amazing student experience.
+                    </p>
+
+                    <button class="register-btn"
+                        data-event="Student Social Night">
+                        Register Now
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <p id="eventMessage"></p>
+
+    </section>
+
+
+    <!-- RESOURCES SECTION -->
+    <section class="resources-section" id="resources">
+
+        <p class="section-label">LEARN AND GROW</p>
+
+        <h2>Study Resources</h2>
+
+        <p class="resource-description">
+            Access useful materials that can help you
+            improve your academic performance.
+        </p>
+
+
+        <div class="resource-container">
+
+            <div class="resource-card">
+
+                <div class="resource-icon">📚</div>
+
+                <h3>Lecture Notes</h3>
+
+                <p>
+                    Organise and access your lecture notes
+                    for different subjects.
+                </p>
+
+                <a href="#join">Explore Resources →</a>
+
+            </div>
+
+
+            <div class="resource-card">
+
+                <div class="resource-icon">📝</div>
+
+                <h3>Past Questions</h3>
+
+                <p>
+                    Practise with previous examination
+                    questions and improve your knowledge.
+                </p>
+
+                <a href="#join">Explore Resources →</a>
+
+            </div>
+
+
+            <div class="resource-card">
+
+                <div class="resource-icon">💻</div>
+
+                <h3>Online Learning</h3>
+
+                <p>
+                    Discover educational platforms
+                    and useful learning websites.
+                </p>
+
+                <a href="#join">Explore Resources →</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ANNOUNCEMENTS -->
+    <section class="announcement-section">
+
+        <p class="section-label">STAY INFORMED</p>
+
+        <h2>Campus Announcements</h2>
+
+        <div class="announcement-container">
+
+            <div class="announcement-card">
+
+                <span>ACADEMIC</span>
+
+                <h3>Examination Preparation</h3>
+
+                <p>
+                    Students are encouraged to begin preparing
+                    for their upcoming examinations.
+                </p>
+
+            </div>
+
+
+            <div class="announcement-card">
+
+                <span>GENERAL</span>
+
+                <h3>Student Registration</h3>
+
+                <p>
+                    Remember to complete your student
+                    registration before the deadline.
+                </p>
+
+            </div>
+
+
+            <div class="announcement-card">
+
+                <span>COMMUNITY</span>
+
+                <h3>Join A Student Group</h3>
+
+                <p>
+                    Discover different student groups
+                    and participate in campus activities.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- COMMUNITY -->
+    <section class="community-section" id="community">
+
+        <div class="community-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac"
+                alt="Friends spending time together"
+            >
+
+        </div>
+
+        <div class="community-text">
+
+            <p class="section-label">STUDENT COMMUNITY</p>
+
+            <h2>Connect. Share. Grow Together.</h2>
+
+            <p>
+                University life is more than attending lectures.
+                It is also about building relationships,
+                sharing ideas and learning from others.
+            </p>
+
+            <p>
+                Campus Connect encourages students to
+                communicate, collaborate and build a
+                stronger academic community.
+            </p>
+
+            <a href="#join" class="primary-btn">
+                Join Our Community
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- JOIN SECTION -->
+    <section class="join-section" id="join">
+
+        <p class="section-label">BECOME PART OF SOMETHING BIGGER</p>
+
+        <h2>Your Student Journey Starts Here.</h2>
+
+        <p>
+            Connect with students, explore opportunities
+            and make your campus experience memorable.
+        </p>
+
+        <div class="join-form">
+
+            <input
+                type="text"
+                id="studentName"
+                placeholder="Enter your name"
+            >
+
+            <input
+                type="email"
+                id="studentEmail"
+                placeholder="Enter your email"
+            >
+
+            <button id="joinButton">
+                Join Campus Connect
+            </button>
+
+        </div>
+
+        <p id="joinMessage"></p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-logo">
+            CAMPUS<span>CONNECT.</span>
+        </div>
+
+        <p>
+            Connecting students. Creating opportunities.
+            Building better campus experiences.
+        </p>
+
+        <div class="footer-links">
+
+            <a href="#home">Home</a>
+            <a href="#events">Events</a>
+            <a href="#resources">Resources</a>
+            <a href="#community">Community</a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Campus Connect. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
